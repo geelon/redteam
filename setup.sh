@@ -2,7 +2,7 @@
 
 CURR_PATH=$(pwd)
 # download boost
-if [ ! -d boost_16_0 ]; then
+if [ ! -d boost_1_69_0 ]; then
     wget https://dl.bintray.com/boostorg/release/1.69.0/source/boost_1_69_0.tar.bz2
     tar --bzip2 -xf boost_1_69_0.tar.bz2
 fi
